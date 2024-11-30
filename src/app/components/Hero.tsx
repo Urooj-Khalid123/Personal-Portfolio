@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import Link from 'next/link';
-import Typewriter from 'typewriter-effect';
+
 
 const Hero = () => {
   return (
@@ -12,14 +12,7 @@ const Hero = () => {
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
         I am
         <br className="hidden lg:inline-block" />
-        
-<Typewriter
-  options={{
-    strings: ['Web Developer', 'UI/UX Designer', 'Front-End Developer', 'Creative Web Developer'],
-    autoStart: true,
-    loop: true,
-  }}
-/>
+
       </h1>
       <div className='w-[100px] h-[2px] bg-gray-700'></div>
       <p className="mb-8 leading-relaxed">
