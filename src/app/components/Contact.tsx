@@ -46,7 +46,7 @@ const Contact = () => {
           Contact
         </h2>
         <p className="leading-relaxed mb-5 text-gray-600">
-        "Need a professional website for your business or personal brand? I’m just a message away—let’s connect!"
+        &quot;Need a professional website for your business or personal brand? I&apos;m just a message away—let&apos;s connect!&quot;
         </p>
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm text-gray-600">

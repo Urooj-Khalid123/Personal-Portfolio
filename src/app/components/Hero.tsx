@@ -16,7 +16,7 @@ const Hero = () => {
       </h1>
       <div className='w-[100px] h-[2px] bg-gray-700'></div>
       <p className="mb-8 leading-relaxed">
-      "Hello, my name is Urooj, and I am a web developer skilled in HTML, CSS, TypeScript, JavaScript, and Next.js. I have worked on projects using these technologies, including building dynamic and responsive websites. I am passionate about creating seamless user experiences and continuously enhancing my skills in modern web development."
+      &quot;Hello, my name is Urooj, and I am a web developer skilled in HTML, CSS, TypeScript, JavaScript, and Next.js. I have worked on projects using these technologies, including building dynamic and responsive websites. I am passionate about creating seamless user experiences and continuously enhancing my skills in modern web development.&quot;
       </p>
       <div className="flex justify-center">
         <Link href={"#Contact"}>
@@ -33,7 +33,7 @@ const Hero = () => {
       height={500}
         className="object-cover object-center  mx-auto w-[20rem] rounded"
         alt="hero"
-        src={require(`../../../public/assets/picture/picture.jpg`)}
+        src="../../../public/assets/picture/picture.jpg"
       />
     </div>
   </div>
