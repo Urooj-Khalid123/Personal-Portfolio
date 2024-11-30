@@ -23,7 +23,7 @@ const About = () => {
               <h4 className="title-font sm:text-xl text-3xl mb-1  font-medium text-gray-900">
                 personal Information :
               </h4>
-              Hi, I’m Urooj Muhammad Khalid, a passionate front-end developer
+              Hi, I am Urooj Muhammad Khalid, a passionate front-end developer
               with a keen interest in creating dynamic and engaging websites.
             </p>
 
@@ -31,7 +31,7 @@ const About = () => {
               <h4 className="title-font sm:text-xl text-3xl mb-1  font-medium text-gray-900">
                 Education :
               </h4>
-              I’m currently an intermediate student at SMB Fatima Jinnah
+              I am currently an intermediate student at SMB Fatima Jinnah
               College, where I am building a strong foundation in web
               development.
             </p>
