@@ -1,5 +1,7 @@
-// next.config.js
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  // Add any other configurations as needed
+  swcMinify: true,
 };
+
+module.exports = nextConfig;
