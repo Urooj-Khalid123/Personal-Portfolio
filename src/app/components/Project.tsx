@@ -28,7 +28,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/project/figma.png")}
+                  src="/assets/picture/figma.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -38,9 +38,9 @@ const Project = () => {
                    Figma Design
                   </h1>
                   <p className="leading-relaxed line-clamp-2">
-                    "A modern, responsive portfolio website crafted to display
+                  &quot; A modern, responsive portfolio website crafted to display
                     creativity and professional achievements. Perfect for
-                    showcasing skills and projects effectively."
+                    showcasing skills and projects effectively.&quot;
                   </p>
                   <Link  target="_blank" href={"https://responsive-website-lemon.vercel.app/"}>
                     <p className="leading-relaxed text-indigo-500 hover:underline cursor-pointer">
@@ -55,7 +55,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/project/car2.png")}
+                  src= "/assets/picture/car2.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -65,9 +65,9 @@ const Project = () => {
                     WEBSITE
                   </h1>
                   <p className="leading-relaxed line-clamp-2">
-                    "A car-selling website showcasing seamless design and
+                  &quot;A car-selling website showcasing seamless design and
                     user-friendly functionality. Perfectly tailored to enhance
-                    your car-shopping experience."
+                    your car-shopping experience.&quot;
                   </p>
                   <Link target="_blank" href={"https://car-selling-website-sooty.vercel.app/"}>
                     <p className="leading-relaxed text-indigo-500 hover:underline cursor-pointer">
@@ -82,7 +82,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/project/portfolio.png")}
+                  src= "/assets/picture/portfolio.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -92,9 +92,9 @@ const Project = () => {
                     WEBSITE
                   </h1>
                   <p className="leading-relaxed line-clamp-2">
-                    "A visually appealing personal portfolio website designed to
+                  &quot;A visually appealing personal portfolio website designed to
                     highlight individuality and professional accomplishments.
-                    Perfect for showcasing unique projects and talents."
+                    Perfect for showcasing unique projects and talents.&quot;
                   </p>
                   <Link  target="_blank" href={"https://portfolio-ten-flame-40.vercel.app/"}>
                     <p className="leading-relaxed text-indigo-500 hover:underline cursor-pointer">
@@ -109,7 +109,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/project/redstore.png")}
+                  src="/assets/picture/redstore.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -119,9 +119,9 @@ const Project = () => {
                     WEBSITE
                   </h1>
                   <p className="leading-relaxed line-clamp-2">
-                    "An e-commerce website offering a wide range of shoes,
+                  &quot;An e-commerce website offering a wide range of shoes,
                     clothing, and essentials. Designed to provide an engaging
-                    shopping experience with visually appealing content."
+                    shopping experience with visually appealing content.&quot;
                   </p>
                   <Link  target="_blank" href={"#"}>
                     <p className="leading-relaxed text-indigo-500 hover:underline cursor-pointer">
@@ -136,7 +136,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/project/lamamia.png")}
+                  src= "/assets/picture/lamamia.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -146,10 +146,10 @@ const Project = () => {
                     WEBSITE
                   </h1>
                   <p className="leading-relaxed line-clamp-2">
-                    "A cutting-edge website focused on delivering exceptional
+                  &quot;A cutting-edge website focused on delivering exceptional
                     design solutions for digital products. Connecting tech teams
                     worldwide to transform ideas into reality with seamless user
-                    experience."
+                    experience.&quot;
                   </p>
                   <Link href={"#"}>
                     <p className="leading-relaxed text-indigo-500 hover:underline cursor-pointer">
@@ -164,7 +164,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/project/fb.png")}
+                  src="/assets/picture/fb.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -174,10 +174,10 @@ const Project = () => {
                    Login-Page
                   </h1>
                   <p className="leading-relaxed line-clamp-2">
-                    "A static clone of Facebook's login page, focusing on
+                  &quot;A static clone of Facebook's login page, focusing on
                     replicating the design and functionality. Demonstrates
                     skills in front-end development with an emphasis on layout
-                    precision and UI accuracy."
+                    precision and UI accuracy.&quot;
                   </p>
                   <Link  target="_blank" href={"https://facebook-login-page-clone-lake.vercel.app/"}>
                     <p className="leading-relaxed text-indigo-500 hover:underline cursor-pointer">

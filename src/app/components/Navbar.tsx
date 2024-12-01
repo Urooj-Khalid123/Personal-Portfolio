@@ -12,7 +12,7 @@ const Navbar = () => {
             <Link href={"https://www.instagram.com/code_with_urooj/#"} target="_blank">
             <Image
               className="w-[50px] rounded-full"
-              src={require("../../../public/assets/picture/logo.jpg")}
+              src= "/assets/picture/logo.jpg"
               alt="Logo"
               width={100}
               height={100}
