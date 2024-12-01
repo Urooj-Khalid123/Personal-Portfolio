@@ -12,7 +12,7 @@ const About = () => {
             height={600}
               className="object-cover object-center rounded  mx-auto w-[350px] h-[450px]"
               alt="hero"
-              src={require('../../../public/assets/picture/picture.jpg')}
+              src= "/assets/picture/picture.jpg"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

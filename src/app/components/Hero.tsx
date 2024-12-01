@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image'
-import Link from 'next/link';
-
+import Link from 'next/link'
 import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
@@ -41,7 +40,7 @@ const Hero = () => {
       height={500}
         className="object-cover object-center  mx-auto w-[20rem] rounded"
         alt="hero"
-        src={require('../../../public/assets/picture/picture.jpg')}
+        src= "/assets/picture/picture.jpg"
       />
     </div>
   </div>
