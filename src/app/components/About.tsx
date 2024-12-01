@@ -12,7 +12,7 @@ const About = () => {
             height={600}
               className="object-cover object-center rounded  mx-auto w-[350px] h-[450px]"
               alt="hero"
-              src="../../../public/assets/picture/picture.jpg"
+              src={require('../../../public/assets/picture/picture.jpg')}
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -24,7 +24,7 @@ const About = () => {
                 personal Information :
               </h4>
               &quot;Hi, I am Urooj Muhammad Khalid, a passionate front-end developer
-              with a keen interest in creating dynamic and engaging websites.;&quot;
+              with a keen interest in creating dynamic and engaging websites.&quot;
             </p>
 
             <p className="mb-5 leading-relaxed">
@@ -33,7 +33,7 @@ const About = () => {
               </h4>
               &quot;I am currently an intermediate student at SMB Fatima Jinnah
               College, where I am building a strong foundation in web
-              development&quot;
+              development.&quot;
             </p>
 
             <p className="mb-5 leading-relaxed">
@@ -43,7 +43,7 @@ const About = () => {
               &quot;I have learned various web development technologies such as HTML,
               CSS, TypeScript, JavaScript, Next.js, and Tailwind CSS. I have
               also worked on multiple projects, which you can explore in my
-              project section&quot;
+              project section.&quot;
             </p>
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-gray-900 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">

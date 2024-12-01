@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
 
+import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
   return (
@@ -12,6 +13,13 @@ const Hero = () => {
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
         I am
         <br className="hidden lg:inline-block" />
+        <Typewriter
+  options={{
+    strings: ['Web Developer', 'UI/UX Designer', 'Front-End Developer', 'Front-End Developer' ],
+    autoStart: true,
+    loop: true,
+  }}
+/>
 
       </h1>
       <div className='w-[100px] h-[2px] bg-gray-700'></div>
@@ -33,7 +41,7 @@ const Hero = () => {
       height={500}
         className="object-cover object-center  mx-auto w-[20rem] rounded"
         alt="hero"
-        src="../../../public/assets/picture/picture.jpg"
+        src={require('../../../public/assets/picture/picture.jpg')}
       />
     </div>
   </div>
