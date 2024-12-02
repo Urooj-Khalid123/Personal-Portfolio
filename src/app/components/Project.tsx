@@ -26,9 +26,11 @@ const Project = () => {
             <div className="lg:w-1/2 sm:w-1/2 p-4">
               <div className="flex relative">
                 <Image
+                width= {550}
+                height={550}
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/assets/picture/figma.png"
+                  src="/assets/project/figma.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -53,9 +55,11 @@ const Project = () => {
             <div className="lg:w-1/2 sm:w-1/2 p-4">
               <div className="flex relative">
                 <Image
+                width= {5500}
+                height={550}
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src= "/assets/picture/car2.png"
+                  src= "/assets/project/car2.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -80,9 +84,11 @@ const Project = () => {
             <div className="lg:w-1/2 sm:w-1/2 p-4">
               <div className="flex relative">
                 <Image
+                width= {550}
+                height={550}
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src= "/assets/picture/portfolio.png"
+                  src= "/assets/project/portfolio.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -107,9 +113,11 @@ const Project = () => {
             <div className="lg:w-1/2 sm:w-1/2 p-4">
               <div className="flex relative">
                 <Image
+                width= {550}
+                height={550}
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/assets/picture/redstore.png"
+                  src="/assets/project/redstore.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -134,9 +142,11 @@ const Project = () => {
             <div className="lg:w-1/2 sm:w-1/2 p-4">
               <div className="flex relative">
                 <Image
+                 width= {550}
+                 height={550}
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src= "/assets/picture/lamamia.png"
+                  src= "/assets/project/lamamia.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -162,9 +172,11 @@ const Project = () => {
             <div className="lg:w-1/2 sm:w-1/2 p-4">
               <div className="flex relative">
                 <Image
-                  alt="gallery"
+                width= {550}
+                height={550}
+                 alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/assets/picture/fb.png"
+                  src="/assets/project/fb.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
