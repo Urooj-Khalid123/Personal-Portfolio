@@ -174,7 +174,7 @@ const Project = () => {
                 <Image
                 width= {550}
                 height={550}
-                alt='project&apos;
+                alt='project'
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src="/assets/project/fb.png"
                 />
@@ -186,7 +186,7 @@ const Project = () => {
                    Login-Page
                   </h1>
                   <p className="leading-relaxed line-clamp-2">
-                  &quot;A static clone of Facebook's login page, focusing on
+                  &quot;A static clone of Facebook&apos;s login page, focusing on
                     replicating the design and functionality. Demonstrates
                     skills in front-end development with an emphasis on layout
                     precision and UI accuracy.&quot;
