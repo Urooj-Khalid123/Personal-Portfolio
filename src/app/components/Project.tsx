@@ -174,7 +174,7 @@ const Project = () => {
                 <Image
                 width= {550}
                 height={550}
-                alt='faceboo-clone'
+                alt='project'
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src="/assets/project/fb.png"
                 />
